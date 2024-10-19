@@ -10,5 +10,5 @@ test("renders input elements correctly", () => {
 test("renders button componet correctly", () => {
   render(<App />);
   const buttonEle = screen.getByRole("button");
-  expect(buttonEle).toHaveText("Submit");
+  expect(buttonEle).toHaveTextContent("Submit");   
 });
