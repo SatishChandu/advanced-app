@@ -21,10 +21,6 @@ function App() {
       <input
         type="text"
         name="username"
-
-
-
-        
         placeholder="Enter the username"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
